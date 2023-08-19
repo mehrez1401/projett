@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+html ,
+ body{
+  width: 100%;
+  padding: 0;
+margin: 0;
+}
+
+.register{
+  margin: 10vh auto;
+  width: 80vw;
+  height: 80vh;
+overflow: hidden;
+border-radius: 20px;
+box-shadow: 0 0 5px rgba(190, 187, 187, .6);
+display: flex;
+
+
+}
+.register-cover{
+  background-image: url('../public/register-bg.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.register-content {
+  width: 50%;
+  text-align: center;
+}
+.form-group {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  gap: 10px;
+}
+.form-group label {
+  margin: 5px 0;
+  text-align: left;
+  font-size: 1rem;
+}
+.input,textarea {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.signup {
+  background-color: black;
+  color: white;
+}
+
+.signup:hover {
+  cursor: pointer;
+  background-color: rgb(45, 40, 40);
+  color: white;
+}
